@@ -11,7 +11,7 @@
     background: linear-gradient(rgba(0,0,0,0.5),#1f1f1f), url('images/barber-man.jpg');
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
 }
 
 .logo{
@@ -225,11 +225,14 @@ nav ul li a{
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
+    cursor: pointer;
 }
 
 .single-service{
     flex-basis: 48%;
     text-align: center;
+    display: flex;
+    align-items: center;
     border-radius: 7px;
     margin-bottom: 20px;
     color: #fff; 
@@ -241,13 +244,12 @@ nav ul li a{
 }
 .overlay{
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     border-radius: 7px;
-    cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(42, 73, 167, 1));
-    opacity: 0;
+    /* background: linear-gradient(rgba(0,0,0,0.5), rgba(42, 73, 167, 1)); */
+    background-color: red;
+    opacity: 1;
     transition: 1s;
 }
 .single-service:hover .overlay{
@@ -258,7 +260,6 @@ nav ul li a{
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
     opacity: 0;
     transition: 1s;
 }
@@ -288,9 +289,9 @@ hr{
     hr{
         margin: 5px auto;
     }
-    .single-service:hover .service-desc{
+    /* .single-service:hover .service-desc{
         bottom: 25% !important;
-    }
+    } */
 }
 /* Service section completed */
 /* Testimonial Section Starts Here */
