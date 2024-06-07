@@ -1,2 +1,2 @@
-# Barber-website
-In this repository, i had created an  awesome barber website with html, css and javascript.
+# Barb3rX Website
+A basic website for Barb3rX in St. George, UT
